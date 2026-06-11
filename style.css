@@ -1,0 +1,348 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background: #0077b6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #0077b6;
+}
+#skills {
+  padding: 20px;
+  margin: 10px;
+  background: #e3f2fd;
+  border-radius: 8px;
+}
+
+#skills h2 {
+  color: #0077b6;
+}
+
+#skills ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+#skills li {
+  margin: 8px 0;
+  font-weight: bold;
+}
+#skills {
+  padding: 20px;
+  margin: 10px;
+  background: #e3f2fd;
+  border-radius: 8px;
+}
+
+#skills h2 {
+  color: #0077b6;
+}
+
+#skills ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+#skills li {
+  margin: 8px 0;
+  font-weight: bold;
+}
+#contact a {
+  display: inline-block;
+  margin: 5px 0;
+  padding: 8px 12px;
+  background: #0077b6;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  background: #023e8a;
+}
+.project-card p {
+  margin: 5px 0;
+}
+
+.project-card .status {
+  font-weight: bold;
+  color: #ff8800; /* Orange for in-progress */
+}
+
+.project-card .completed {
+  font-weight: bold;
+  color: #28a745; /* Green for completed */
+}
+.resume-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #0077b6;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.resume-btn:hover {
+  background: #023e8a;
+}
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+#theme-toggle {
+  padding: 8px 12px;
+  border: none;
+  background: #0077b6;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#theme-toggle:hover {
+  background: #023e8a;
+}
+
+/* Dark Mode text colors */
+body.dark-mode {
+  background-color: #121212; /* Dark background */
+  color: #ffffff;           /* White text */
+}
+
+/* Headings and paragraphs */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p {
+  color: #ffffff;
+}
+
+/* Links */
+body.dark-mode a {
+  color: #90e0ef; /* Light blue links */
+}
+
+/* Resume button in dark mode */
+body.dark-mode .resume-btn {
+  background: #00b4d8;
+  color: #000000;
+}
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Headings and paragraphs */
+h1, h2, h3, p, a {
+  transition: color 0.4s ease;
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+nav {
+  background: #0077b6;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #90e0ef;
+}
+footer {
+  background: #0077b6;   /* Blue background */
+  color: white;          /* White text */
+  text-align: center;    /* Center alignment */
+  padding: 20px;         /* Space inside footer */
+  margin-top: 40px;      /* Gap above footer */
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #90e0ef;        /* Light blue links */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #caf0f8;        /* Hover effect */
+}
+/* Contact Section */
+#contact {
+  padding: 50px;
+  background: #f8f9fa;   /* Light background */
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+  color: #0077b6;
+  text-align: left;      /* Heading left aligned */
+}
+
+/* Form Styling */
+#contact-form {
+  max-width: 600px;
+  margin: 0;             /* Remove auto center */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#contact-form label {
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+
+#contact-form textarea {
+  resize: none; /* Prevent manual resize */
+}
+
+/* Button Styling */
+#contact-form button {
+  background: #0077b6;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: fit-content;    /* Button size based on text */
+}
+
+#contact-form button:hover {
+  background: #023e8a;
+}
+/* About Section Layout */
+#about-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;               /* Space between photo and text */
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+/* Profile Photo Styling */
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;         /* Crop extra background */
+  border-radius: 50%;       /* Perfect circle */
+  border: 4px solid #0077b6;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        /* Fill circle neatly */
+  display: block;
+}
+
+/* About Text Styling */
+.about-text {
+  flex: 1;                   /* Take remaining space */
+  max-width: 1000px;
+  color: #333;               /* Ensure text visible */
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+/* Default Desktop View */
+.profile-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .profile-box {
+    flex-direction: column;   /* stack vertically */
+    align-items: center;      /* center align */
+    text-align: center;       /* text center */
+    gap: 10px;
+  }
+
+  .profile-photo {
+    width: 100px;   /* smaller photo */
+    height: 100px;
+  }
+
+  .profile-text h1 {
+    font-size: 18px; /* smaller text */
+  }
+
+  .profile-text p {
+    font-size: 14px;
+  }
+}
